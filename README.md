@@ -1,10 +1,18 @@
-# Favorite Holiday 
+# Progress Bar
 
-### Create a webpage that describes your favorite holiday destination. The webpage should include the following elements:
+### Create a progress bar using html, css and javascript.
 
-- A heading (h1) with the name of the holiday destination
-- A paragraph that provides a brief overview of the destination
-- A line break between the heading and the paragraph
-- An ordered list that lists the top 5 attractions in the destination
-- An unordered list that lists the must-try foods in the destination
-- Text within the ordered and unordered lists should be bold (strong or b) and/or italicized (em or i) to emphasize important information.
+- The webpage should include 5 circles with class `.circle` and two buttons next with id `next` and previous with id `prev`.
+- Initially only first circle should have `active` class. 
+- As the user presses the next button an `active` class is added to the next circle.
+- As the user presses the previous button an `active` class is removed from the current circle.
+- Initially the previous button should be disabled.
+- When all the circles become active then next button becomes disabled.
+
+The progress bar should look like this:
+
+![image](https://user-images.githubusercontent.com/78348500/217869400-45b317a5-e8fb-4391-9986-4e4aa53e610c.png)
+
+
+-Ids for every circle will be circle-1, circle-2, circle-3... and so on.
+
